@@ -9,33 +9,19 @@
     <link rel="icon" href="">
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between align-items-center">
-        <h1>logo</h1>
-        <ul id="NavBar" class="d-flex gap-5 nav_bar">
-          <!-- <li onclick="closeNav()">close</li> -->
-          <li>
-            <a onclick="openNav()" href="#home">home</a>
-          </li>
-          <li>
-            <a onclick="openNav()" href="#home">home</a>
-          </li>
-          <li>
-            <a onclick="openNav()" href="#home">home</a>
-          </li>
-          <li>
-            <a onclick="openNav()" href="#home">home</a>
-          </li>
-        </ul>
-  
-        <button onclick="openNav()" class="d-lg-none z-3">
-          menu
-        </button>
-      </nav>
-  
-    </div>
     <section class="bcg_img">
       <div class="container">
+        <nav class="d-flex justify-content-between align-items-centern pt-4 bcg">
+          <img src="/assets/images/svg/logo.svg" alt="#">
+          <ul id="NavBar" class="d-flex gap-5 nav_bar">
+            <li><a onclick="openNav()" href="#home" class="clr-1">REDACT</a></li>
+            <li><a onclick="openNav()" href="#home" class="clr-1">EXTRACT</a></li>
+            <li><a onclick="openNav()" href="#home" class="clr-1">DETECT</a></li>
+            <li><a onclick="openNav()" href="#home" class="clr-1">COMPARE</a></li>
+            <li><a onclick="openNav()" href="#home" class="bttn_try fw-600 font_fmly clr-4 fs-md">TRY NOW</a></li>
+          </ul>
+          <button onclick="openNav()" class="d-lg-none z-3">menu</button>
+        </nav>
         <div class="row pt_60">
           <div class="col-6">
             <div class="d-flex">
@@ -49,7 +35,7 @@
             </div>
           </div>
           <div class="col-6 mt-4">
-            <p class="font_fmly fw-400 clr-4 fs-md">iDox.ai provides the world’s most advanced AI powered redaction solution for organizations to scan and detect within document management systems, folders, and multitude of file sources. </p>
+            <p class="font_fmly fw-400 clr-3 fs-md">iDox.ai provides the world’s most advanced AI powered redaction<span class="ds_block">solution for organizations to scan and detect within document</span><span class="ds_block">management systems, folders, and multitude of file sources.</span></p>
             <button class="fw-600 font_fmly clr-4 fs-md bttn_rqst mt-2">Request Demo</button>
           </div>
         </div>
@@ -111,53 +97,83 @@
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><img src="/assets/images/svg/Frame10.svg" alt="#"> Time-Saving AI Integration</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Time-Saving AI Integration</button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item mt-3">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><img src="/assets/images/svg/Frame10.svg" alt="#"> Enterprise-Level Scalability</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> Enterprise-Level Scalability</button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item mt-3">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><img src="/assets/images/svg/Frame10.svg" alt="#"> Cloud-Based For Multiple Locations</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> Cloud-Based For Multiple Locations</button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item mt-3">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><img src="/assets/images/svg/Frame10.svg" alt="#"> Collaborative Work Among Teams</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> Collaborative Work Among Teams</button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item mt-3">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><img src="/assets/images/svg/Frame10.svg" alt="#"> Proactive Risk Assessment Reports</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive"> Proactive Risk Assessment Reports</button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item mt-3">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><img src="/assets/images/svg/Frame10.svg" alt="#"> High Accuracy To Avoid Oversights</button>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"> High Accuracy To Avoid Oversights</button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clr-13">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <h2 class="fw-500 font_fmly clr-4 fs-xxl">How We Bring Value</h2>
+            <div class="box_4">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cm">High Accuracy Rate</p>
+            </div>
+            <div class="box_4 mt-3">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn">Time Saving</p>
+            </div>
+            <div class="box_4 mt-3">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn">Cost Saving</p>
+            </div>
+            <div class="box_4 mt-3">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn">Labor Hours Gained Back</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div>
+              <img src="/assets/images/png/Group3.png" alt="#">
             </div>
           </div>
         </div>
