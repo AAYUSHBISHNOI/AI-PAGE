@@ -1,14 +1,68 @@
 :root{
     /* font-size */
     --fs-head: 48px ;
-    --fs-xxl: 144px ;
-    --fs-xl: 64px ;
-    --fs-lg: 36px ;
-    --fs-md: 24px ;
-    --fs-sm: 20px ;
-    --fs-xsm: 18px ; 
+    --fs-xxl: 44px ;
+    --fs-xl: 32px ;
+    --fs-lg: 20px ;
+    --fs-cmn: 18px ;
+    --fs-md: 16px ;
+    --fs-sm: 15px ;
+    --fs-xsm: 14px ; 
     /* color */
-    --blck: #000000;
-    --blue:#01007e;
-    --skyblue: #010080;
+    --clr-1: #caced2;
+    --clr-2:#caced1;
+    --clr-3: #b0b5ba;
+    --clr-4: #fbfdff;
+    --clr-5: #b1b5b9;
+    --clr-6: #0389ff;
+    --clr-7: #b1bac4;
+    --clr-8: #cad2db;
+    --clr-9: #7e858a;
+    --clr-10: #b0b9c2;
+    --clr-11: #b1b7bd;
+    --clr-12: #981aa9;
+    --clr-13: #020d15;
+    --clr-14: #021728;
+}
+.clr-1{
+    color: var(--clr-1);
+}
+.clr-2{
+    color: var(--clr-2);
+}
+.clr-3{
+    color: var(--clr-3);
+}
+.clr-4{
+    color: var(--clr-4);
+}
+.clr-5{
+    color: var(--clr-5);
+}
+.clr-6{
+    color: var(--clr-6);
+}
+.clr-7{
+    color: var(--clr-7);
+}
+.clr-8{
+    color: var(--clr-8);
+}
+.clr-9{
+    color: var(--clr-9);
+}
+.clr-10{
+    color: var(--clr-10);
+}
+.clr-11{
+    color: var(--clr-11);
+}
+.clr-12{
+    color: var(--clr-12);
+}
+.clr-13{
+    background-color: var(--clr-13);
+}
+.clr-14{
+    background-color: var(--clr-14);
 }
