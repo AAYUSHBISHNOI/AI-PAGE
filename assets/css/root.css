@@ -8,6 +8,13 @@
     --fs-md: 16px ;
     --fs-sm: 15px ;
     --fs-xsm: 14px ; 
+
+    /* font-weight */
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-700:700;
+
     /* color */
     --clr-1: #caced2;
     --clr-2:#caced1;
@@ -23,6 +30,18 @@
     --clr-12: #981aa9;
     --clr-13: #020d15;
     --clr-14: #021728;
+}
+.fw-300{
+    font-weight: var(--fw-300);
+}
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.fw-700{
+    font-weight: var(--fw-700);
 }
 .fs-head{
     font-size: var(--fs-head);
