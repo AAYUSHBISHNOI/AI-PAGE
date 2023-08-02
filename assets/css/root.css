@@ -1,0 +1,14 @@
+:root{
+    /* font-size */
+    --fs-head: 48px ;
+    --fs-xxl: 144px ;
+    --fs-xl: 64px ;
+    --fs-lg: 36px ;
+    --fs-md: 24px ;
+    --fs-sm: 20px ;
+    --fs-xsm: 18px ; 
+    /* color */
+    --blck: #000000;
+    --blue:#01007e;
+    --skyblue: #010080;
+}
