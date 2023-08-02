@@ -13,6 +13,7 @@
     --fw-300:300;
     --fw-400:400;
     --fw-500:500;
+    --fw-600: 600;
     --fw-700:700;
 
     /* color */
@@ -39,6 +40,9 @@
 }
 .fw-500{
     font-weight: var(--fw-500);
+}
+.fw_600{    
+    font-weight: var(--fw-600);
 }
 .fw-700{
     font-weight: var(--fw-700);
