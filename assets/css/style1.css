@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
 @import url(./root.css);
 * {
   padding: 0;
@@ -37,19 +38,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* card */
-.bg-clr {
-  background-color: #020d15;
-}
-
-.drop {
-  color: var(--white, #fbfdff);
-  font-family: "Poppins";
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-}
 .box {
   display: flex;
   width: 231px;
@@ -83,57 +71,11 @@
   border: 1px dashed var(--blue, #0389ff);
 }
 .btn {
-  display: flex;
   padding: 3.272px 15px;
-  align-items: flex-start;
-  gap: 6.544px;
   border-radius: 44.988px;
   background: linear-gradient(135deg, #0389ff 0%, #0069e3 100%);
 }
-.all {
-  color: #fbfdff;
 
-  font-family: "Poppins";
-  font-size: 13px;
-  font-weight: 400;
-}
-.practic {
-  color: var(--white, #fbfdff);
-  font-family: "Poppins";
-  font-size: 15px;
-  font-weight: 600;
-}
-.sample {
-  color: var(--white, #fbfdff);
-  font-family: "Poppins";
-  font-size: 11px;
-  font-weight: 600;
-}
-.page {
-  color: #b0bac4;
-  font-family: "Poppins";
-  font-size: 9px;
-  font-weight: 400;
-}
-.table1 {
-  color: #fbfdff;
-  font-family: "Poppins";
-  font-size: 9px;
-  font-weight: 400;
-}
-.april {
-  color: #fbfdff;
-  font-family: "Poppins";
-  font-size: 9px;
-  font-weight: 400;
-}
-.Clinic {
-  color: #fbfdff;
-  text-align: center;
-  font-family: "Poppins";
-  font-size: 9px;
-  font-weight: 400;
-}
 .arrow {
   position: absolute;
   right: -6%;
@@ -144,4 +86,28 @@
   right: 9%;
   top: -8%;
   z-index: 1;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+::placeholder {
+  color: whitesmoke !important;
+}
+.btn {
+  border-radius: 40px !important;
+}
+.btn:hover {
+  box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.5);
+}
+.form-control {
+  border: none !important;
+  border-radius: 29px !important;
+  background: rgba(251, 253, 255, 0.07) !important;
+}
+.bordr-right {
+  border-right: 1px dotted white;
+}
+.bordr-bottom {
+  border-bottom: 1px dotted white;
 }
