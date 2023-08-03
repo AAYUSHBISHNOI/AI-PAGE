@@ -1,11 +1,11 @@
 :root{
     /* font-size */
-    --fs-head: 48px ;
-    --fs-xxl: 44px ;
-    --fs-xl: 32px ;
+    --fs-head: 26px ;
+    --fs-xxl: 30px ;
+    --fs-xl: 24px ;
     --fs-lg: 20px ;
     --fs-cmn: 18px ;
-    --fs-md: 16px ;
+    --fs-md: 15px ;
     --fs-sm: 15px ;
     --fs-xsm: 14px ;
     --fs-1xsm:13px ;
@@ -139,6 +139,18 @@
         --fs-cmn: 18px ;
         --fs-md: 16px ;
         --fs-sm: 15px ;
-        --fs-xsm: 18    px ; 
+        --fs-xsm: 18px ; 
+    }
+}
+@media (min-width:768px) {
+    :root{
+        --fs-head: 46px ;
+        --fs-xxl: 38px ;
+        --fs-xl: 36px ;
+        --fs-lg: 20px ;
+        --fs-cmn: 18px ;
+        --fs-md: 16px ;
+        --fs-sm: 15px ;
+        --fs-xsm: 18px ; 
     }
 }
