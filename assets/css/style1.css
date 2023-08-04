@@ -111,3 +111,45 @@ p {
 .bordr-bottom {
   border-bottom: 1px dotted white;
 }
+
+.line {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background: #fbfdff;
+}
+/* .ellip348 {
+  position: absolute;
+  top: -26%;
+  left: 17%;
+}
+.ellip350 {
+  position: absolute;
+  right: 0;
+  top: -60%;
+}
+.ellip351 {
+  position: absolute;
+  left: 25%;
+  top: -30%;
+}
+.ellip352 {
+  position: absolute;
+  left: 0;
+  bottom: -64%;
+}
+.ellip {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ellip1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.ellip346 {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+} */
