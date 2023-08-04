@@ -13,6 +13,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+header{
+    position: sticky !important;
+    top: 0% !important;
+}
 .font_fmly{
     font-family: 'Plus Jakarta Sans';
 }
@@ -247,14 +251,14 @@ ol, ul {
 .bcg_slider{
     background: #020D15;
 }
-@media (max-width: 992px) {
+@media (max-width:992px) {
     .nav_bar {
-      width: 100%;
-      height: 100vh;
-      position: fixed;
-      top: 0;
+      position: fixed !important;
+      top: 0 !important;
       left: -100%;
       z-index: 1;
+      width: 100%;
+      height: 100vh;
       background-color: #021728;
       align-items: center;
       justify-content: center;
