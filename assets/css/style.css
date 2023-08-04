@@ -13,6 +13,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+header{
+    position: sticky !important;
+    top: 0% !important;
+}
 .font_fmly{
     font-family: 'Plus Jakarta Sans';
 }
@@ -211,7 +215,7 @@
 }
 .bcg{
     background-color: transparent;
-    backdrop-filter: blur(100px );
+    backdrop-filter: blur(5px);
 }
 .clr-1:hover{
     color: #0389ff;
@@ -232,6 +236,7 @@ ol, ul {
     padding: 5px 5px;
     background-color: #0389ff;
     border: none;
+    border-radius: 10px;
 }
 .zindex{
     z-index: 1000;
@@ -239,15 +244,21 @@ ol, ul {
 .slick-dots li button:before {
     color: white;
 }
-
-@media (max-width: 992px) {
+.bcgimg{
+    border-radius: 634.947px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(2, 13, 21, 0.00) 20.31%, rgba(2, 13, 21, 0.30) 61.46%, #020D15 93.75%);
+}
+.bcg_slider{
+    background: #020D15;
+}
+@media (max-width:992px) {
     .nav_bar {
+      position: fixed !important;
+      top: 0 !important;
+      left: -100%;
+      z-index: 1;
       width: 100%;
       height: 100vh;
-      position: fixed;
-      top: 0;
-      left: -100%;
-      z-index: 1000;
       background-color: #021728;
       align-items: center;
       justify-content: center;
@@ -258,7 +269,7 @@ ol, ul {
         left: 0;
     }
     .overflow_hidden{
-        overflow: hidden;
+        overflow: hidden !important;
     }
 }
 @media (min-width:320px) {
@@ -295,4 +306,16 @@ ol, ul {
     .d_none{
         display: unset;
     }
+}
+
+.slick-slide{
+    opacity: 0.5;
+}
+.slick-current{
+    opacity: 1;
+}
+
+
+.accordion-button.collapsed img{
+    display: none;
 }
