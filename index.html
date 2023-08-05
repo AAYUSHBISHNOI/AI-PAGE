@@ -34,10 +34,11 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/images/png/icon.png">
   </head>
-  <body class="overflow-x-hidden">
+  <body>
+    <section class="">
     <!-- HEADER -->
     <section class="bcg_img">
-      <header class="bcg position-relative z-1 ">
+      <header class="bcg position-relative z-1 position-sticky top-0">
         <div class="container">
           <nav class="d-flex justify-content-between align-items-center pt-4 pb-2">
             <img src="/assets/images/svg/logo.svg" alt="#">
@@ -46,9 +47,13 @@
               <li><a onclick="openNav()" href="#home" class="clr-1">EXTRACT</a></li>
               <li><a onclick="openNav()" href="#home" class="clr-1">DETECT</a></li>
               <li><a onclick="openNav()" href="#home" class="clr-1">COMPARE</a></li>
-              <li><a onclick="openNav()" href="#home" class="bttn_try fw-600 font_fmly clr-4 fs-md">TRY NOW</a></li>
+              <li><a onclick="openNav()" href="#home" class="fw-600 font_fmly fs-md common-button">TRY NOW</a></li>
             </ul>
-            <button onclick="openNav()" class="d-lg-none z-3 bttn_nav">NAV</button>
+            <button onclick="openNav()" class="d-lg-none z-3 bttn_nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
           </nav>
         </div>
       </header>
@@ -69,13 +74,13 @@
           <p class="font_fmly fw-400 clr-4 fs-md">iDox.ai provides the world’s most advanced AI powered redaction
             solution for organizations to scan and detect within document management systems, folders, and multitude of
             file sources. </p>
-          <button class="fw-600 font_fmly clr-4 fs-md bttn_rqst mt-2">Request Demo</button>
+          <button class="fw-600 font_fmly fs-md common-button mt-2">Request Demo</button>
         </div>
       </div>
     </div>
   </section>
     <!-- DASHBOARD -->
-    <section class="clr-13 mrgnt">
+    <section class="clr-13 mrgnt overflow-x-hidden">
       <div class="container position-relative">
         <img class="img_pstn" src="/assets/images/png/Ellipse348.png" alt="#">
         <img class="img_pstn_1" src="/assets/images/png/Ellipse346.png" alt="#">
@@ -106,8 +111,8 @@
       </div>
     </section>
     <!-- MARQUEE -->
-    <section class="clr-13 pt-5 pb-5">
-      <Marquee direction="left" width="100%">
+    <section class="clr-13 pt-5 pb-5 overflow-hidden">
+      <Marquee direction="left" width="100%" hspace="100">
       <div class="d-flex">
         <div><img class="w-100%" src="/assets/images/svg/image100.svg" alt="#"></div>
         <div><img class="w-100%" src="/assets/images/svg/image101.svg" alt="#"></div>
@@ -138,7 +143,7 @@
           <div class="col-12 col-md-6 pt-sm-5">
             <h2 class="fw-500 font_fmly clr-4 fs-xxl" data-aos="fade-down-left">Compliance Security <span class="ds_block">Trust</span></h2>-
             <p class="fs-xsm fw-400 font_fmly clr-5" data-aos="fade-right">Posuere ultrices aliquet risus malesuada viverra nec praesent.<span class="ds_block">Sed nisl facilisi augue.</span></p>
-            <button class="bttn_rqst fw-600 fs-md clr-4 mt-2" data-aos="fade-down-right">watch demo video</button>
+            <button class="common-button fw-600 fs-md mt-2" data-aos="fade-down-right">watch demo video</button>
           </div>
         </div>
       </div>
@@ -152,7 +157,7 @@
           <div class="col-12 col-md-6">
             <h2 class="fw-500 font_fmly clr-4 fs-xl" data-aos="flip-down">How we can help?</h2>
             <p class="clr-5 fw-400 fs-md font_fmly mt-3" data-aos="flip-up">Whether you handle financial, government, healthcare, or legal <span class="ds_block">information, iDox.ai allows organizations to reduce risk of</span><span class="ds_block">human error, combat time sensitive redaction requests, avoid</span><span class="ds_block">costly penalties at a fraction of the price.</span></p>
-            <button class="bttn_rqst fs-md fw-400 font_fmly clr-4 mt-3" data-aos="fade-right">watch demo video</button>
+            <button class="common-button fs-md fw-400 font_fmly mt-3" data-aos="fade-right">watch demo video</button>
           </div>
           <div class="col-12 col-md-6 pt-md-5 mt-3">
             <div>
@@ -573,18 +578,18 @@
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data Compair</a></li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data <span
                                         class="d-block">Review</span> </a></li>
-                            <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Industries</a></li>
+                            <li><a href="" class="fw-400 fs-md clr-5 comman-ff">INDUSTRIES</a></li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Developer</a></li>
                         </ul>
                         <ul class="col-12 col-sm-6 col-md-2  mt-5 mt-lg-0 ">
-                            <li class="fw-500 fs-md clr-4 comman-ff">store</li>
+                            <li class="fw-500 fs-md clr-4 comman-ff">STORE</li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Choose a plan</a></li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Integrations</a></li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Pricing</a></li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">News</a></li>
                         </ul>
                         <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
-                            <li class="fw-500 fs-md clr-4 comman-ff">support</li>
+                            <li class="fw-500 fs-md clr-4 comman-ff">SUPPORT</li>
                             <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Customer Support</a></li>
                         </ul>
                         <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
@@ -618,6 +623,7 @@
             <p class="fw-400 fs-md clr-5 comman-ff">2023 © Foxit Software Incorporated. All rights reserved.</p>
         </div>
     </footer>
+    </section>
     
 <!-- script -->
 
