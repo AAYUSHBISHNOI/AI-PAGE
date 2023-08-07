@@ -8,6 +8,9 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
+.font_family_poppins{
+    font-family: "poppins";
+}
 .bcg_img{
     background-image: url("/assets/images/png/bcg_img.png");
     background-position: center;
