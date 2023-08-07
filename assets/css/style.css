@@ -33,6 +33,7 @@
     border-radius: 12px;
     background: rgba(3, 137, 255, 0.12);
     backdrop-filter: blur(12px);
+    align-items: center;
     top: 25%;
     left: -5%;
     z-index: 500;
@@ -137,12 +138,13 @@
 }
 .txt_pstn{
     position: absolute;
-    right:35%;
+    right:40%;
+    top: 10%;
 }
 .txt_pstn_1{
     position: absolute;
-    right: 10%;
-    top: 55%;
+    right: 20%;
+    top: 45%;
 }
 .txt_pstn_2{
     position: absolute;
@@ -403,16 +405,16 @@ p {
 }
 @media (min-width:320px) {
     .bordr-right {
-        border-right: none !important;
-    }
-    .border-bottom {
-        border-bottom:none !important;
-    }
+        border-right: none !important ;
+      }
+      .bordr-bottom  {
+        border-bottom: none !important;
+      }
     .ds_block{
         display: unset;
     }
     .d_none{
-        display: none;
+        display: none !important;
     }
     .pt_60 {
         padding-top: 50px;
@@ -439,12 +441,12 @@ p {
         font-size: 16px !important;
     }
     .d_none{
-        display: unset;
+        display: unset !important;
     }
     .bordr-right {
-        border-right: 1px dotted white !important;
+        border-right: 3px solid #273138 !important ;
       }
-      .bordr-right {
-        border-right: 1px dotted white !important;
-    }
+      .bordr-bottom  {
+        border-bottom: 3px solid #273138 !important;
+      }
 }
