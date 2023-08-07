@@ -45,107 +45,120 @@
   <link rel="icon" href="/assets/images/png/icon.png">
 </head>
 
-<body class="overflow-x-hidden">
-  <!-- HEADER -->
-  <section class="bcg_img">
-    <header class="bcg position-relative z-1 ">
+<body>
+  <section class="">
+    <!-- HEADER -->
+    <section class="bcg_img">
+      <header class="bcg position-relative z-1 position-sticky top-0">
+        <div class="container">
+          <nav class="d-flex justify-content-between align-items-center pt-4 pb-2">
+            <img src="/assets/images/svg/logo.svg" alt="#">
+            <ul id="NavBar" class="d-flex gap-5 nav_bar">
+              <li><a onclick="openNav()" href="#home" class="clr-1">REDACT</a></li>
+              <li><a onclick="openNav()" href="#home" class="clr-1">EXTRACT</a></li>
+              <li><a onclick="openNav()" href="#home" class="clr-1">DETECT</a></li>
+              <li><a onclick="openNav()" href="#home" class="clr-1">COMPARE</a></li>
+              <li><a onclick="openNav()" href="#home" class="fw-600 font_fmly fs-md common-button">TRY NOW</a></li>
+            </ul>
+            <button onclick="openNav()" class="d-lg-none z-3 bttn_nav">
+              <span class="nav-lines"></span>
+              <span class="nav-lines"></span>
+              <span class="nav-lines"> </span>
+            </button>
+          </nav>
+        </div>
+      </header>
       <div class="container">
-        <nav class="d-flex justify-content-between align-items-center pt-4 pb-2">
-          <img src="/assets/images/svg/logo.svg" alt="#">
-          <ul id="NavBar" class="d-flex gap-5 nav_bar">
-            <li><a onclick="openNav()" href="#home" class="clr-1">REDACT</a></li>
-            <li><a onclick="openNav()" href="#home" class="clr-1">EXTRACT</a></li>
-            <li><a onclick="openNav()" href="#home" class="clr-1">DETECT</a></li>
-            <li><a onclick="openNav()" href="#home" class="clr-1">COMPARE</a></li>
-            <li><a onclick="openNav()" href="#home" class="bttn_try fw-600 font_fmly clr-4 fs-md">TRY NOW</a></li>
-          </ul>
-          <button onclick="openNav()" class="d-lg-none z-3 bttn_nav">NAV</button>
-        </nav>
-      </div>
-    </header>
-
-    </header>
-    <div class="container">
-      <div class="row pt_60">
-        <div class="col-12 col-md-6">
-          <div class="d-flex align-items-center">
-            <div data-aos="fade-down">
-              <img src="/assets/images/png/Line36.png" alt="#">
+        <div class="row pt_60">
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-center">
+              <div data-aos="fade-down">
+                <img src="/assets/images/png/Line36.png" alt="#">
+              </div>
+              <p class="fs-xl clr-4 font_fmly fw-300">The world’s <span class="fs-xl clr-6 fw-300 font_fmly">#1</span>
+              </p>
             </div>
-            <p class="fs-xl clr-4 font_fmly fw-300">The world’s <span class="fs-xl clr-6 fw-300 font_fmly">#1</span></p>
+            <div>
+              <h2 class="font_fmly fw-700 fs-head clr-4">AI powered document compliance solution</h2>
+            </div>
           </div>
-          <div>
-            <h2 class="font_fmly fw-700 fs-head clr-4">AI powered document compliance solution</h2>
+          <div class="col-12 col-md-6 mt-4">
+            <p class="font_fmly fw-400 clr-4 fs-md">iDox.ai provides the world’s most advanced AI powered redaction
+              solution for organizations to scan and detect within document management systems, folders, and multitude
+              of
+              file sources. </p>
+            <button class="fw-600 font_fmly fs-md common-button mt-2">Request Demo</button>
           </div>
-        </div>
-        <div class="col-12 col-md-6 mt-4">
-          <p class="font_fmly fw-400 clr-4 fs-md">iDox.ai provides the world’s most advanced AI powered redaction
-            solution for organizations to scan and detect within document management systems, folders, and multitude of
-            file sources. </p>
-          <button class="fw-600 font_fmly clr-4 fs-md bttn_rqst mt-2">Request Demo</button>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- DASHBOARD -->
-  <section class="clr-13 mrgnt">
-    <div class="container position-relative">
-      <img class="img_pstn" src="/assets/images/png/Ellipse348.png" alt="#">
-      <img class="img_pstn_1" src="/assets/images/png/Ellipse346.png" alt="#">
-      <img class="img_pstn_2" src="/assets/images/png/Ellipse347.png" alt="#">
-      <div class="position-relative">
-        <img class="pb-5 pb-sm-4 w-100" data-aos="zoom-out-down" src="/assets/images/png/Dashboard.png" alt="#">
-        <div class="box d_none" data-aos="zoom-in-left">
-          <img class="pstn_frm" src="/assets/images/svg/Frame4.svg" alt="#">
-          <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn">95%</p>
-          <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_1">Cost savings</p>
-        </div>
-        <div class="box_1 d_none" data-aos="zoom-in-down">
-          <img class="pstn_frm" src="/assets/images/svg/Frame1.svg" alt="#">
-          <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_2">47+</p>
-          <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_3">File formats</p>
-        </div>
-        <div class="box_2 d_none" data-aos="zoom-out-down">
-          <img class="pstn_frm" src="/assets/images/svg/Frame3.svg" alt="#">
-          <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_4">95%</p>
-          <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_5">Cost savings</p>
-        </div>
-        <div class="box_3 d_none" data-aos="fade-down">
-          <img class="pstn_frm" src="/assets/images/svg/Frame2.svg" alt="#">
-          <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_6">95%</p>
-          <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_7">Cost savings</p>
+    </section>
+    <!-- DASHBOARD -->
+    <section class="clr-13 mrgnt overflow-x-hidden">
+      <div class="container position-relative">
+        <img class="img_pstn" src="/assets/images/png/Ellipse348.png" alt="#">
+        <img class="img_pstn_1" src="/assets/images/png/Ellipse346.png" alt="#">
+        <img class="img_pstn_2" src="/assets/images/png/Ellipse347.png" alt="#">
+        <div class="position-relative">
+          <img class="pb-5 pb-sm-4 w-100" data-aos="zoom-out-down" src="/assets/images/png/Dashboard.png" alt="#">
+          <div class="box d_none" data-aos="zoom-in-left">
+            <img class="pstn_frm" src="/assets/images/svg/Frame4.svg" alt="#">
+            <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn">95%</p>
+            <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_1">Cost savings</p>
+          </div>
+          <div class="box_1 d_none" data-aos="zoom-in-down">
+            <img class="pstn_frm" src="/assets/images/svg/Frame1.svg" alt="#">
+            <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_2">47+</p>
+            <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_3">File formats</p>
+          </div>
+          <div class="box_2 d_none" data-aos="zoom-out-down">
+            <img class="pstn_frm" src="/assets/images/svg/Frame3.svg" alt="#">
+            <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_4">95%</p>
+            <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_5">Cost savings</p>
+          </div>
+          <div class="box_3 d_none" data-aos="fade-down">
+            <img class="pstn_frm" src="/assets/images/svg/Frame2.svg" alt="#">
+            <p class="font_fmly fw-700 clr-4 fs-lg txt_pstn_6">95%</p>
+            <p class="font_fmly fw-400 clr-4 fs-md txt_pstn_7">Cost savings</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- MARQUEE -->
-  <section class="clr-13 pt-5 pb-5">
-    <Marquee direction="left" width="100%">
-      <div class="d-flex">
-        <div><img class="w-100%" src="/assets/images/svg/image100.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image101.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image102.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image103.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image105.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image107.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image111.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image100.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image101.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image102.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image103.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image105.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image107.svg" alt="#"></div>
-        <div><img class="w-100%" src="/assets/images/svg/image111.svg" alt="#"></div>
-    </Marquee>
-    </div>
-  </section>
-  <!-- COMPLIANCE SECURITY -->
-  <section class="clr-13 pt-5 pt-sm-3 pb-5 mrgnt">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6">
-          <div data-aos="fade-down-right">
-            <img class="w-100 bcgimg" src="/assets/images/png/Group4.png" alt="#">
+    </section>
+    <!-- MARQUEE -->
+    <section class="clr-13 pt-5 pb-5 overflow-hidden">
+      <Marquee direction="left" width="100%" hspace="100">
+        <div class="d-flex">
+          <div><img class="w-100%" src="/assets/images/svg/image100.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image101.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image102.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image103.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image105.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image107.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image111.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image100.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image101.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image102.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image103.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image105.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image107.svg" alt="#"></div>
+          <div><img class="w-100%" src="/assets/images/svg/image111.svg" alt="#"></div>
+      </Marquee>
+      </div>
+    </section>
+    <!-- COMPLIANCE SECURITY -->
+    <section class="clr-13 pt-5 pt-sm-3 pb-5 mrgnt">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <div data-aos="fade-down-right">
+              <img class="w-100 bcgimg" src="/assets/images/png/Group4.png" alt="#">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 pt-sm-5">
+            <h2 class="fw-500 font_fmly clr-4 fs-xxl" data-aos="fade-down-left">Compliance Security <span
+                class="ds_block">Trust</span></h2>-
+            <p class="fs-xsm fw-400 font_fmly clr-5" data-aos="fade-right">Posuere ultrices aliquet risus malesuada
+              viverra nec praesent.<span class="ds_block">Sed nisl facilisi augue.</span></p>
+            <button class="common-button fw-600 fs-md mt-2" data-aos="fade-down-right">watch demo video</button>
           </div>
         </div>
         <div class="col-12 col-md-6 pt-sm-5">
@@ -156,35 +169,36 @@
           <button class="bttn_rqst fw-600 fs-md clr-4 mt-2" data-aos="fade-down-right">watch demo video</button>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- ACCORDIAN -->
-  <section class="clr-13 pt-5 pb-5 mrgnt position-relative overflow-hidden">
-    <img class="img_pstn_3" src="/assets/images/png/Ellipse350.png" alt="#">
-    <img class="img_pstn_4" src="/assets/images/png/Ellipse352.png" alt="#">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6">
-          <h2 class="fw-500 font_fmly clr-4 fs-xl" data-aos="flip-down">How we can help?</h2>
-          <p class="clr-5 fw-400 fs-md font_fmly mt-3" data-aos="flip-up">Whether you handle financial, government,
-            healthcare, or legal <span class="ds_block">information, iDox.ai allows organizations to reduce risk
-              of</span><span class="ds_block">human error, combat time sensitive redaction requests, avoid</span><span
-              class="ds_block">costly penalties at a fraction of the price.</span></p>
-          <button class="bttn_rqst fs-md fw-400 font_fmly clr-4 mt-3" data-aos="fade-right">watch demo video</button>
-        </div>
-        <div class="col-12 col-md-6 pt-md-5 mt-3">
-          <div>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item" data-aos="zoom-in-down">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> <img
-                      width="50" class="pe-3" src="/assets/images/svg/Frame.svg" alt=""> Time-Saving AI
-                    Integration</button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body ps-5">Posuere ultrices aliquet risus malesuada viverra <span
-                      class="d-block">nec praesent. Sed nisl facilisi augue.</span> </div>
+    </section>
+    <!-- ACCORDIAN -->
+    <section class="clr-13 pt-5 pb-5 mrgnt position-relative overflow-hidden">
+      <img class="img_pstn_3" src="/assets/images/png/Ellipse350.png" alt="#">
+      <img class="img_pstn_4" src="/assets/images/png/Ellipse352.png" alt="#">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <h2 class="fw-500 font_fmly clr-4 fs-xl" data-aos="flip-down">How we can help?</h2>
+            <p class="clr-5 fw-400 fs-md font_fmly mt-3" data-aos="flip-up">Whether you handle financial, government,
+              healthcare, or legal <span class="ds_block">information, iDox.ai allows organizations to reduce risk
+                of</span><span class="ds_block">human error, combat time sensitive redaction requests, avoid</span><span
+                class="ds_block">costly penalties at a fraction of the price.</span></p>
+            <button class="common-button fs-md fw-400 font_fmly mt-3" data-aos="fade-right">watch demo video</button>
+          </div>
+          <div class="col-12 col-md-6 pt-md-5 mt-3">
+            <div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item" data-aos="zoom-in-down">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> <img
+                        width="50" class="pe-3" src="/assets/images/svg/Frame.svg" alt=""> Time-Saving AI
+                      Integration</button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ps-5">Posuere ultrices aliquet risus malesuada viverra <span
+                        class="d-block">nec praesent. Sed nisl facilisi augue.</span> </div>
+                  </div>
                 </div>
               </div>
               <div class="accordion-item mt-3" data-aos="zoom-in-up">
@@ -254,416 +268,381 @@
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
-  <!-- HOW WE BRING VALUE -->
-  <section class="clr-13 pt-5 mrgnt position-relative overflow-hidden">
-    <img class="img_pstn_5" src="/assets/images/png/Ellipse348.png" alt="#">
-    <img class="img_pstn_6" src="/assets/images/png/Ellipse349.png" alt="#">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6">
-          <h2 class="fw-500 font_fmly clr-4 fs-xxl" data-aos="zoom-out">How We Bring Value</h2>
-          <div class="box_4 mt-4" data-aos="fade-down">
-            <img src="/assets/images/svg/frame9.svg" alt="#">
-            <p class="fw-500 font_fmly clr-4 fs-cm mb-0">High Accuracy Rate</p>
+      </div>
+      </div>
+    </section>
+    <!-- HOW WE BRING VALUE -->
+    <section class="clr-13 pt-5 mrgnt position-relative overflow-hidden">
+      <img class="img_pstn_5" src="/assets/images/png/Ellipse348.png" alt="#">
+      <img class="img_pstn_6" src="/assets/images/png/Ellipse349.png" alt="#">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <h2 class="fw-500 font_fmly clr-4 fs-xxl" data-aos="zoom-out">How We Bring Value</h2>
+            <div class="box_4 mt-4" data-aos="fade-down">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cm mb-0">High Accuracy Rate</p>
+            </div>
+            <div class="box_4 mt-3" data-aos="fade-down-right">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Time Saving</p>
+            </div>
+            <div class="box_4 mt-3" data-aos="fade-up-left">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Cost Saving</p>
+            </div>
+            <div class="box_4 mt-3" data-aos="fade-up-right">
+              <img src="/assets/images/svg/frame9.svg" alt="#">
+              <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Labor Hours Gained Back</p>
+            </div>
           </div>
-          <div class="box_4 mt-3" data-aos="fade-down-right">
-            <img src="/assets/images/svg/frame9.svg" alt="#">
-            <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Time Saving</p>
+          <div class="col-12 col-md-6">
+            <div class="mt-3">
+              <img class="w-100" data-aos="zoom-in" src="/assets/images/png/Group3.png" alt="#">
+            </div>
           </div>
-          <div class="box_4 mt-3" data-aos="fade-up-left">
-            <img src="/assets/images/svg/frame9.svg" alt="#">
-            <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Cost Saving</p>
-          </div>
-          <div class="box_4 mt-3" data-aos="fade-up-right">
-            <img src="/assets/images/svg/frame9.svg" alt="#">
-            <p class="fw-500 font_fmly clr-4 fs-cmn mb-0">Labor Hours Gained Back</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="mt-3">
-            <img class="w-100" data-aos="zoom-in" src="/assets/images/png/Group3.png" alt="#">
-          </div>
-        </div>
 
-      </div>
-  </section>
-  <!-- SLIDER -->
-  <section class="clr-13 mrgnt pt-5 pb-5Q">
-    <div class="multiple-items">
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-      <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
-    </div>
-  </section>
-  <!-- We provide -->
-  <section class="clr-13  overflow-hidden mrgnt">
-    <div class="container">
-      <div class="row align-items-center pt-5 pb-5">
-        <div class="col-12 col-md-6" data-aos="fade-right">
-          <img class="w-100 " src="./assets/images/png/Group1.png" alt="">
         </div>
-        <div class="col-12 col-md-6" data-aos="fade-left">
-          <h2 class="fs-xxl fw-500 clr-4 comman-ff">We provide secure <span class="d-block">solutions</span>
-          </h2>
-          <p class="fw-400 fs-md clr-5 comman-ff">For nationwide and global teams, our cloud-based solutions
-            <span class="d-block">keep
-              everyone on
-              the same page, all
-              backed by our SOC 2 and
-            </span> ISO 27001 certifications.
-          </p>
-          <div class="mt-4">
-            <button class="common-button fw-600 fs-md comman-ff">Learn More</button>
+    </section>
+    <!-- SLIDER -->
+    <section class="clr-13 mrgnt pt-5 pb-5Q">
+      <div class="multiple-items">
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+        <div><img class="w-100 ps-4" src="/assets/images/png/slider.png" alt="#"></div>
+      </div>
+    </section>
+    <!-- We provide -->
+    <section class="clr-13  overflow-hidden mrgnt">
+      <div class="container">
+        <div class="row align-items-center pt-5 pb-5">
+          <div class="col-12 col-md-6" data-aos="fade-right">
+            <img class="w-100 " src="./assets/images/png/Group1.png" alt="">
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <h2 class="fs-xxl fw-500 clr-4 comman-ff">We provide secure <span class="d-block">solutions</span>
+            </h2>
+            <p class="fw-400 fs-md clr-5 comman-ff">For nationwide and global teams, our cloud-based solutions
+              <span class="d-block">keep
+                everyone on
+                the same page, all
+                backed by our SOC 2 and
+              </span> ISO 27001 certifications.
+            </p>
+            <div class="mt-4">
+              <button class="common-button fw-600 fs-md comman-ff">Learn More</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- How it works -->
-  <section class="clr-13  overflow-hidden mrgnt">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="fw-500 fs-xxl clr-4 pt-5 comman-ff ">How it works</h2>
-        <p class="fw-400 fs-md clr-5 comman-ff">Only 2 minutes redacting a 10 page document</p>
-      </div>
-      <div class="row pt-5 pb-5 justify-content-center">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative d-flex justify-content-center"
-          data-aos="fade-right">
-          <img class="arrow d-none d-sm-flex" src="./assets/images/svg/arrow1.svg" alt="">
-          <img class="plus" src="./assets/images/svg/plus.svg" alt="#">
-          <div class="box-1">
-            <div class="box-2 flex-column ">
-              <h2 class="fw-500 fs-md clr-4">Get started</h2>
-              <div class="dots-box d-flex justify-content-center align-items-center">
-                <img src="./assets/images/svg/arrow.svg" alt="">
-                <p class="fw-500 fs-2sm  clr-4">Drop or click to select a file</p>
-                <div class="pb-2">
-                  <a href="" class=" common-button fw-500 fs-3sm clr-4 ">Add Document</a>
+    </section>
+    <!-- How it works -->
+    <section class="clr-13  overflow-hidden mrgnt">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="fw-500 fs-xxl clr-4 pt-5 comman-ff ">How it works</h2>
+          <p class="fw-400 fs-md clr-5 comman-ff">Only 2 minutes redacting a 10 page document</p>
+        </div>
+        <div class="row pt-5 pb-5 justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative d-flex justify-content-center"
+            data-aos="fade-right">
+            <img class="arrow d-none d-sm-flex" src="./assets/images/svg/arrow1.svg" alt="">
+            <img class="plus" src="./assets/images/svg/plus.svg" alt="#">
+            <div class="box-1">
+              <div class="box-2 flex-column ">
+                <h2 class="fw-500 fs-md clr-4">Get started</h2>
+                <div class="dots-box d-flex justify-content-center align-items-center">
+                  <img src="./assets/images/svg/arrow.svg" alt="">
+                  <p class="fw-500 fs-2sm  clr-4">Drop or click to select a file</p>
+                  <div class="pb-2">
+                    <a href="" class=" common-button fw-500 fs-3sm clr-4 ">Add Document</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-sm-0 position-relative d-flex justify-content-center "
-          data-aos="fade-right">
-          <img class="arrow d-none d-md-flex" src="./assets/images/svg/arrow1.svg" alt="">
-          <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
-          <div class="box-1">
-            <div class="box-2 flex-column align-items-start ">
-              <div class="d-flex align-items-center align-items-start">
-                <img src="./assets/images/svg/true.svg" alt="#">
-                <h2 class="fw-400 fs-1xsm clr-10 ms-2">Select all</h2>
-              </div>
-              <div class=" d-flex  ">
-                <img src="./assets/images/svg/true.svg" alt="#">
-                <img class="ms-2" src="./assets/images/svg/address.svg" alt="#">
-                <h2 class="fw-400 fs-1xsm clr-10 ms-2">Address</h2>
-              </div>
-              <div class=" d-flex ">
-                <img src="./assets/images/svg/true.svg" alt="#">
-                <img class="ms-2" src="./assets/images/svg/age.svg" alt="#">
-                <h2 class="fw-400 fs-1xsm clr-10 ms-2">Ages</h2>
-              </div>
-              <div class=" d-flex ">
-                <img src="./assets/images/svg/true.svg" alt="#">
-                <img class="ms-2" src="./assets/images/svg/code.svg" alt="#">
-                <h2 class="fw-400 fs-1xsm clr-10 ms-2">Country Code</h2>
-              </div>
-              <div class=" d-flex ">
-                <img src="./assets/images/svg/true.svg" alt="#">
-                <img class="ms-2" src="./assets/images/svg/e.mail.svg" alt="#">
-                <h2 class="fw-400 fs-1xsm clr-10 ms-2">E-mail</h2>
-              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-sm-0 position-relative d-flex justify-content-center "
+            data-aos="fade-right">
+            <img class="arrow d-none d-md-flex" src="./assets/images/svg/arrow1.svg" alt="">
+            <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
+            <div class="box-1">
+              <div class="box-2 flex-column align-items-start ">
+                <div class="d-flex align-items-center align-items-start">
+                  <img src="./assets/images/svg/true.svg" alt="#">
+                  <h2 class="fw-400 fs-1xsm clr-10 ms-2">Select all</h2>
+                </div>
+                <div class=" d-flex  ">
+                  <img src="./assets/images/svg/true.svg" alt="#">
+                  <img class="ms-2" src="./assets/images/svg/address.svg" alt="#">
+                  <h2 class="fw-400 fs-1xsm clr-10 ms-2">Address</h2>
+                </div>
+                <div class=" d-flex ">
+                  <img src="./assets/images/svg/true.svg" alt="#">
+                  <img class="ms-2" src="./assets/images/svg/age.svg" alt="#">
+                  <h2 class="fw-400 fs-1xsm clr-10 ms-2">Ages</h2>
+                </div>
+                <div class=" d-flex ">
+                  <img src="./assets/images/svg/true.svg" alt="#">
+                  <img class="ms-2" src="./assets/images/svg/code.svg" alt="#">
+                  <h2 class="fw-400 fs-1xsm clr-10 ms-2">Country Code</h2>
+                </div>
+                <div class=" d-flex ">
+                  <img src="./assets/images/svg/true.svg" alt="#">
+                  <img class="ms-2" src="./assets/images/svg/e.mail.svg" alt="#">
+                  <h2 class="fw-400 fs-1xsm clr-10 ms-2">E-mail</h2>
+                </div>
 
+              </div>
             </div>
-          </div>
 
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-md-0 position-relative d-flex justify-content-center "
-          data-aos="fade-left">
-          <img class="arrow d-none d-sm-flex " src="./assets/images/svg/arrow1.svg" alt="">
-          <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
-          <div class="box-1">
-            <div class="box-2 flex-column align-items-start ">
-              <h2 class="fw-600 fs-md clr-4">Practice Facilitation</h2>
-              <p class="fw-600 fs-1sm clr-4">Sample Medical Record: Mo</p>
-              <p class="fw-400 pt-2 fs-3sm clr-10">Previous Page</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">Table of Contents</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">Use for April 2011 abstraction</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">WeServeEveryone Clinic</p>
-              <p class="fw-400 pt-2 fs-3sm clr-10">1111 First Street California</p>
-            </div>
           </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-md-0 position-relative d-flex justify-content-center "
+            data-aos="fade-left">
+            <img class="arrow d-none d-sm-flex " src="./assets/images/svg/arrow1.svg" alt="">
+            <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
+            <div class="box-1">
+              <div class="box-2 flex-column align-items-start ">
+                <h2 class="fw-600 fs-md clr-4">Practice Facilitation</h2>
+                <p class="fw-600 fs-1sm clr-4">Sample Medical Record: Mo</p>
+                <p class="fw-400 pt-2 fs-3sm clr-10">Previous Page</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">Table of Contents</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">Use for April 2011 abstraction</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">WeServeEveryone Clinic</p>
+                <p class="fw-400 pt-2 fs-3sm clr-10">1111 First Street California</p>
+              </div>
+            </div>
 
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-lg-0 d-flex justify-content-center position-relative "
-          data-aos="fade-left">
-          <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
-          <div class="box-1">
-            <div class="box-2 flex-column align-items-start">
-              <h2 class="fw-600 fs-md clr-4">Practice Facilitation</h2>
-              <p class="fw-600 fs-1sm clr-4">Sample Medical Record: Mo</p>
-              <p class="fw-400 pt-2 fs-3sm clr-10">Previous Page</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">Table of Contents</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">Use for April 2011 abstraction</p>
-              <p class="fw-400 pt-2 fs-3sm clr-4">WeServeEveryone Clinic</p>
-              <p class="fw-400 pt-2 fs-3sm clr-10">1111 First Street California</p>
-            </div>
           </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-4 mt-lg-0 d-flex justify-content-center position-relative "
+            data-aos="fade-left">
+            <img class="plus" src="./assets/images/svg/tick1.svg" alt="#">
+            <div class="box-1">
+              <div class="box-2 flex-column align-items-start">
+                <h2 class="fw-600 fs-md clr-4">Practice Facilitation</h2>
+                <p class="fw-600 fs-1sm clr-4">Sample Medical Record: Mo</p>
+                <p class="fw-400 pt-2 fs-3sm clr-10">Previous Page</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">Table of Contents</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">Use for April 2011 abstraction</p>
+                <p class="fw-400 pt-2 fs-3sm clr-4">WeServeEveryone Clinic</p>
+                <p class="fw-400 pt-2 fs-3sm clr-10">1111 First Street California</p>
+              </div>
+            </div>
 
+          </div>
+        </div>
+        <div class="text-center mt-4 pb-5">
+          <button class="common-button fw-600 fs-md comman-ff">Try Now</button>
         </div>
       </div>
-      <div class="text-center mt-4 pb-5">
-        <button class="common-button fw-600 fs-md comman-ff">Try Now</button>
+    </section>
+    <!-- Our Integrations -->
+    <section class="clr-13 overflow-hidden mrgnt">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="fw-500 fs-xxl clr-4 comman-ff">Our Integrations</h2>
+        </div>
+        <div class="row pt-5 pb-5 ">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
+            <img src="./assets/images/svg/google.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
+            <img src="./assets/images/svg/drope.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
+            <img src="./assets/images/svg/box.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 border-bottom">
+            <img src="./assets/images/svg/nd.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right  ">
+            <img src="./assets/images/svg/exchange.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right">
+            <img src="./assets/images/svg/s3.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right">
+            <img src="./assets/images/svg/point.svg" alt="#">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5">
+            <img src="./assets/images/svg/one.svg" alt="#">
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- Accelerate Your -->
+    <section class="clr-13  overflow-hidden mrgnt">
+      <div class="container">
+        <div class="row d-flex align-items-center pt-5 pb-5">
+          <div class="col-12 col-md-6" data-aos="fade-right">
+            <h2 class="fw-500 fs-xxl clr-4 comman-ff">Accelerate Your <span class="d-block"> Enterprise’s
+                Document</span>
+              Redaction
+              Efforts</h2>
+            <p class="fw-400 fs-md clr-5 comman-ff">As your team carries out time-intensive manual redaction
+              <span class="d-block">
+                processes,
+                there’s
+                a
+                trade-off between
+                security and efficiency.</span>
+              <span class="d-block">iDox.ai Redact offers the best of both worlds with thorough,</span>
+              automatic
+              redactions.
+            </p>
+            <div class="mt-4">
+              <button class="fw-600 fs-md common-button comman-ff">Learn More</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-5 mt-lg-0 " data-aos="fade-left">
+            <img class="w-100" src="./assets/images/png/img1.png" alt="#">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose the plan -->
+    <section class="clr-13  overflow-hidden mrgnt">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="fw-500 fs-xxl clr-4 comman-ff" data-aos="zoom-in">Choose The Plan Best Fits For You</h2>
+        </div>
+        <div class="row text-center pt-5 justify-content-center ">
+          <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-left">
+            <h2 class="comman-ff fw-600 fs-xl clr-4">$0.99</h2>
+            <p class="comman-ff fw-500 fs-lg clr-4">7 Days</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-down">
+            <h2 class="comman-ff fw-600 fs-xl clr-4">$490</h2>
+            <p class="comman-ff fw-500 fs-lg clr-4">Business</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-right">
+            <h2 class="comman-ff fw-600 fs-xl clr-4">$190</h2>
+            <p class="comman-ff fw-500 fs-lg clr-4">Basic</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4  d-flex  flex-column align-items-center pt-4" data-aos="zoom-in-left">
+              <div>
+                <div class="d-flex   ">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">50 Pages Analysis ( 7 Days )</p>
+                </div>
+                <div class="d-flex pt-3">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Share Up To 2 Users</p>
+                </div>
+                <div class="d-flex pt-3 ">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">After 7 Day, Auto Renews Plan</p>
+                </div>
+              </div>
+              <div class="mt-5 pb-5">
+                <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  d-flex  flex-column align-items-center pt-4" data-aos="zoom-in-down">
+              <div>
+                <div class="d-flex text-center">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Unlimited Pages Analysis/ Year</p>
+                </div>
+                <div class="d-flex text-center pt-3">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Share Up To 10 Users</p>
+                </div>
+                <div class="d-flex text-center pt-3">
+                  <img src="./assets/images/svg/tick3.svg" alt="#">
+                  <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Maximum 100 Pages Per Doc.</p>
+                </div>
+              </div>
+              <div class="mt-5 pb-5">
+                <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
+              </div>
+              <form class="row g-3 justify-content-center mt-5">
+                <div class="col-auto" data-aos="flip-down">
+                  <input type="email" class="form-control  text-white " id="email" placeholder="Enter your email here">
+                </div>
+                <div class="col-auto" data-aos="flip-down">
+                  <a href="" class="btn btn-primary ">Sign Up Now</a>
+                </div>
+              </form>
+            </div>
+    </section>
+    <!-- footer -->
+    <footer class="clr-14 mrgnt">
+      <div class="container">
+        <div class="row pt-5 pb-5">
+          <div class="col-12 col-xl-6 col-xxl-3" data-aos="fade-right">
+            <img src="./assets/images/svg/logo.svg" alt="">
+            <p class="fw-400 fs-xsm  clr-5 comman-ff mt-4">Any system that works with API can be connected via
+              APIcenter.
+            </p>
+            <div class="mt-5">
+              <img src="./assets/images/svg/fb.svg" alt="#">
+              <img src="./assets/images/svg/insta.svg" alt="#">
+              <img src="./assets/images/svg/twitter.svg" alt="#">
+            </div>
+          </div>
+          <div class="col-12 col-xl-6 col-xxl-9" data-aos="fade-left">
+            <div class="row">
+              <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0        ">
+                <li class="fw-500 fs-md clr-4 comman-ff">PRODUCTS</li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data Discovery</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data <span class="d-block">
+                      Redact</span> </a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data Compair</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data <span class="d-block">Review</span>
+                  </a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">INDUSTRIES</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Developer</a></li>
+              </ul>
+              <ul class="col-12 col-sm-6 col-md-2  mt-5 mt-lg-0 ">
+                <li class="fw-500 fs-md clr-4 comman-ff">STORE</li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Choose a plan</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Integrations</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Pricing</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">News</a></li>
+              </ul>
+              <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
+                <li class="fw-500 fs-md clr-4 comman-ff">SUPPORT</li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Customer Support</a></li>
+              </ul>
+              <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
+                <li class="fw-500 fs-md clr-4 comman-ff">COMPANY</li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">About Us</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Security</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Partnership Opportunities</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Careers</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Privacy Policy</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Terms of Services</a></li>
+              </ul>
+              <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
+                <li class="fw-500 fs-md clr-4 comman-ff">ENTERPRISE</li>
+                <li><a href="" class="fw-400 fs-md clr-5">ENTERPRISE</a></li>
+              </ul>
+              <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
+                <li class="fw-500 fs-md clr-4 comman-ff">RESOURCES</li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Blog></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Case Studies</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">eBooks</a></li>
+                <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Events</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 pb-5">
+          <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
   </section>
-  <!-- Our Integrations -->
-  <section class="clr-13 overflow-hidden mrgnt">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="fw-500 fs-xxl clr-4 comman-ff">Our Integrations</h2>
-      </div>
-      <div class="row pt-5 pb-5 ">
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
-          <img src="./assets/images/svg/google.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
-          <img src="./assets/images/svg/drope.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 bordr-right border-bottom">
-          <img src="./assets/images/svg/box.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pb-5 border-bottom">
-          <img src="./assets/images/svg/nd.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right  ">
-          <img src="./assets/images/svg/exchange.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right">
-          <img src="./assets/images/svg/s3.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5 bordr-right">
-          <img src="./assets/images/svg/point.svg" alt="#">
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center pt-5">
-          <img src="./assets/images/svg/one.svg" alt="#">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Accelerate Your -->
-  <section class="clr-13  overflow-hidden mrgnt">
-    <div class="container">
-      <div class="row d-flex align-items-center pt-5 pb-5">
-        <div class="col-12 col-md-6" data-aos="fade-right">
-          <h2 class="fw-500 fs-xxl clr-4 comman-ff">Accelerate Your <span class="d-block"> Enterprise’s
-              Document</span>
-            Redaction
-            Efforts</h2>
-          <p class="fw-400 fs-md clr-5 comman-ff">As your team carries out time-intensive manual redaction
-            <span class="d-block">
-              processes,
-              there’s
-              a
-              trade-off between
-              security and efficiency.</span>
-            <span class="d-block">iDox.ai Redact offers the best of both worlds with thorough,</span>
-            automatic
-            redactions.
-          </p>
-          <div class="mt-4">
-            <button class="fw-600 fs-md common-button comman-ff">Learn More</button>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mt-5 mt-lg-0 " data-aos="fade-left">
-          <img class="w-100" src="./assets/images/png/img1.png" alt="#">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- choose the plan -->
-  <section class="clr-13  overflow-hidden mrgnt">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="fw-500 fs-xxl clr-4 comman-ff" data-aos="zoom-in">Choose The Plan Best Fits For You</h2>
-      </div>
-      <div class="row text-center pt-5 justify-content-center ">
-        <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-left">
-          <h2 class="comman-ff fw-600 fs-xl clr-4">$0.99</h2>
-          <p class="comman-ff fw-500 fs-lg clr-4">7 Days</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-down">
-          <h2 class="comman-ff fw-600 fs-xl clr-4">$490</h2>
-          <p class="comman-ff fw-500 fs-lg clr-4">Business</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 pb-5 " data-aos="fade-right">
-          <h2 class="comman-ff fw-600 fs-xl clr-4">$190</h2>
-          <p class="comman-ff fw-500 fs-lg clr-4">Basic</p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-4  d-flex  flex-column align-items-center pt-4" data-aos="zoom-in-left">
-            <div>
-              <div class="d-flex   ">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">50 Pages Analysis ( 7 Days )</p>
-              </div>
-              <div class="d-flex pt-3">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Share Up To 2 Users</p>
-              </div>
-              <div class="d-flex pt-3 ">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">After 7 Day, Auto Renews Plan</p>
-              </div>
-            </div>
-            <div class="mt-5 pb-5">
-              <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4  d-flex  flex-column align-items-center pt-4" data-aos="zoom-in-down">
-            <div>
-              <div class="d-flex text-center">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Unlimited Pages Analysis/ Year</p>
-              </div>
-              <div class="d-flex text-center pt-3">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Share Up To 10 Users</p>
-              </div>
-              <div class="d-flex text-center pt-3">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Maximum 100 Pages Per Doc.</p>
-              </div>
-            </div>
-            <div class="mt-5 pb-5">
-              <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex  flex-column align-items-center pt-4" data-aos="zoom-in-right">
-            <div>
-              <div class="d-flex ">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">3000 Pages Analysis/ Year</p>
-              </div>
-              <div class="d-flex text-center pt-3">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Share Up To 2 Users</p>
-              </div>
-              <div class="d-flex text-center pt-3">
-                <img src="./assets/images/svg/tick3.svg" alt="#">
-                <p class="fw-400 fs-cmn clr-3 ms-3 comman-ff">Maximum 100 Pages Per Doc.</p>
-              </div>
-            </div>
-            <div class="mt-5 pb-5">
-              <a href="" class="btn-2 clr-4 comman-ff fw-600 fs-md">Select</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Get started today! -->
-  <section class="bg-img mrgnt">
-    <div class="container  d-flex flex-column min-vh-100 overflow-hidden justify-content-center">
-      <div class="text-center ">
-        <h2 class=" fw-500 fs-xxl clr-4 comman-ff" data-aos="zoom-in">Get started today!</h2>
-        <p class="fw-400  fs-md clr-5 comman-ff" data-aos="zoom-in">Arcu egestas pellentesque velit facilisis in in.
-          Tortor nisl
-          urna lacus mauris
-          adipiscing
-          <span class="d-block">commodo
-            purus. Lectus etiam arcu sagittis pellentesque hendrerit.
-          </span>
-        </p>
-      </div>
-      <form class="row g-3 justify-content-center mt-5">
-        <div class="col-auto" data-aos="flip-down">
-          <input type="email" class="form-control  text-white " id="email" placeholder="Enter your email here">
-        </div>
-        <div class="col-auto" data-aos="flip-down">
-          <a href="" class="btn btn-primary ">Sign Up Now</a>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!-- footer -->
-  <footer class="clr-14 mrgnt">
-    <div class="container">
-      <div class="row pt-5 pb-5">
-        <div class="col-12 col-xl-6 col-xxl-3" data-aos="fade-right">
-          <img src="./assets/images/svg/logo.svg" alt="">
-          <p class="fw-400 fs-xsm  clr-5 comman-ff mt-4">Any system that works with API can be connected via
-            APIcenter.
-          </p>
-          <div class="mt-5">
-            <img src="./assets/images/svg/fb.svg" alt="#">
-            <img src="./assets/images/svg/insta.svg" alt="#">
-            <img src="./assets/images/svg/twitter.svg" alt="#">
-          </div>
-        </div>
-        <div class="col-12 col-xl-6 col-xxl-9" data-aos="fade-left">
-          <div class="row">
-            <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0        ">
-              <li class="fw-500 fs-md clr-4 comman-ff">PRODUCTS</li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data Discovery</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data <span class="d-block">
-                    Redact</span> </a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data Compair</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">iDox.ai Data <span class="d-block">Review</span> </a>
-              </li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Industries</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Developer</a></li>
-            </ul>
-            <ul class="col-12 col-sm-6 col-md-2  mt-5 mt-lg-0 ">
-              <li class="fw-500 fs-md clr-4 comman-ff">store</li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Choose a plan</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Integrations</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Pricing</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">News</a></li>
-            </ul>
-            <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
-              <li class="fw-500 fs-md clr-4 comman-ff">support</li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Customer Support</a></li>
-            </ul>
-            <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
-              <li class="fw-500 fs-md clr-4 comman-ff">COMPANY</li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">About Us</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Security</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Partnership Opportunities</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Careers</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Privacy Policy</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Terms of Services</a></li>
-            </ul>
-            <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
-              <li class="fw-500 fs-md clr-4 comman-ff">ENTERPRISE</li>
-              <li><a href="" class="fw-400 fs-md clr-5">ENTERPRISE</a></li>
-            </ul>
-            <ul class="col-12 col-sm-6 col-md-2 mt-5 mt-lg-0">
-              <li class="fw-500 fs-md clr-4 comman-ff">RESOURCES</li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Blog></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Case Studies</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">eBooks</a></li>
-              <li><a href="" class="fw-400 fs-md clr-5 comman-ff">Events</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pb-4">
-      <p class="line"></p>
-    </div>
-    <div class="text-center pb-4">
-      <p class="fw-400 fs-md clr-5 comman-ff">2023 © Foxit Software Incorporated. All rights reserved.</p>
-    </div>
-  </footer>
+
+
+  <!-- script -->
 
   <!-- script -->
 
