@@ -359,6 +359,24 @@ p {
     width: 50px;
     margin-bottom: 10px;
 }
+.under_line::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #0069e3;
+    bottom: -5px;
+    right: 100%;
+}
+.under_line:hover::after{
+    width: 100%;
+    left: 0;
+    transition: 500ms linear;
+    
+}
+.under_line:hover{
+    -webkit-text-stroke: 1px #0069e3;
+}
 @media (max-width:992px) {
     .nav_bar {
       position: fixed;
