@@ -20,21 +20,21 @@
   --fw-600: 600;
   --fw-700: 700;
 
-    /* color */
-    --clr-1: #caced2;
-    --clr-2:#caced1;
-    --clr-3: #b0b5ba;
-    --clr-4: #fbfdff;
-    --clr-5: #b1b5b9;
-    --clr-6: #0389ff;
-    --clr-7: #b1bac4;
-    --clr-8: #cad2db;
-    --clr-9: #7e858a;
-    --clr-10: #b0b9c2;
-    --clr-11: #b1b7bd;
-    --clr-12: #808b93;
-    --clr-13: #020d15;
-    --clr-14: #021728;
+  /* color */
+  --clr-1: #caced2;
+  --clr-2: #caced1;
+  --clr-3: #b0b5ba;
+  --clr-4: #fbfdff;
+  --clr-5: #b1b5b9;
+  --clr-6: #0389ff;
+  --clr-7: #b1bac4;
+  --clr-8: #cad2db;
+  --clr-9: #7e858a;
+  --clr-10: #b0b9c2;
+  --clr-11: #b1b7bd;
+  --clr-12: #808b93;
+  --clr-13: #020d15;
+  --clr-14: #021728;
 }
 .fs-1xsm {
   font-size: var(--fs-1xsm);
